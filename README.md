@@ -1,2 +1,5 @@
-# min-wage-case-study-Card-Krueger-1993-
-Conducted a difference-in-differences (DiD) analysis to estimate the effect of New Jersey's minimum wage increase on employment in fast-food restaurants by comparing changes in employment in New Jersey (treatment group) to Pennsylvania (control group) across two time periods (pre- and post-policy).
+## min-wage-case-study-Card-Krueger-1993-
+Difference-in-differences approach to find wage impact on employment
+
+# Summary
+The dataset, based on the 1993 study by David Card and Alan Krueger, investigates the impact of New Jersey’s minimum wage increase in April 1992 on fast-food employment, using Pennsylvania as a control group. The data includes variables such as state (representing New Jersey and Pennsylvania), restaurant ID, time period (February for pre-policy and November for post-policy), and total employment (total emp) for each fast-food restaurant. To estimate the effect of the minimum wage increase on employment, I applied a difference-in-differences (DiD) methodology, leveraging the panel structure of the data. This approach allows for controlling potential confounders by comparing the changes in employment between the two states over time, while accounting for unobserved factors that might affect employment. The model provides an estimate of the treatment effect on the fast-food industry in New Jersey relative to Pennsylvania, capturing the causal impact of the minimum wage increase on employment levels.
